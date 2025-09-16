@@ -20,6 +20,10 @@ Most of the code was written by prompting Gemini to generate some
 pieces of code and putting them together (with a bit of coding myself
 [ha, the suffering]).
 
+## Example 
+
+![Example of computed output](example.gif)
+
 #### Low level comments
 
 - For the CH computation, the version provided should be good enough, but it is definitely not super robust. The Delaunay triangulation package seems to provide a more robust implementation if this becomes relevant.
