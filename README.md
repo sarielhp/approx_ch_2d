@@ -3,8 +3,7 @@
 ### Written By Sariel Har-Peled, 2025-Sep-16
 
 
-This code computes a polygon that approximates the convex-hull of a
-given set of points (all the in the plane). Specifically, one is given
+This code computes a polygon that approximates the convex-hull of a given set of points (all the in the plane). Specifically, one is given
 a parameter k, and the algorithm adds the k points that each of them
 add the most area to the current convex-hull. For simplicity, the two
 starting points are the two x-extreme points. The algorithms works in
@@ -21,3 +20,6 @@ Most of the code was written by prompting Gemini to generate some
 pieces of code and putting them together (with a bit of coding myself
 [ha, the suffering]).
 
+#### Low level comments
+
+- For the CH computation, the version provided should be good enough, but it is definitely not super robust. The Delaunay triangulation package seems to provide a more robust implementation.
