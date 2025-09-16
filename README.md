@@ -20,9 +20,9 @@ Most of the code was written by prompting Gemini to generate some
 pieces of code and putting them together (with a bit of coding myself
 [ha, the suffering]).
 
-## Example 
+## Example of output
 
-![Example of computed output](example.jpg)
+![Example of computed output](example.svg)
 
 #### Low level comments
 
