@@ -22,4 +22,10 @@ pieces of code and putting them together (with a bit of coding myself
 
 #### Low level comments
 
-- For the CH computation, the version provided should be good enough, but it is definitely not super robust. The Delaunay triangulation package seems to provide a more robust implementation.
+- For the CH computation, the version provided should be good enough, but it is definitely not super robust. The Delaunay triangulation package seems to provide a more robust implementation if this becomes relevant.
+
+- To improve the running time, one can precompute the convex-hull of all the points, and then use extreme queries to figure out what is the next point to add, instead of the current linear scan approach. 
+
+- The approach used here is probably from this paper:
+
+[[https://link.springer.com/article/10.1007/s00453-007-9067-9][Practical Methods for Shape Fitting and Kinetic Data Structures using Coresets]]
