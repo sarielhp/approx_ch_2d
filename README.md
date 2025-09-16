@@ -22,7 +22,7 @@ pieces of code and putting them together (with a bit of coding myself
 
 ## Example 
 
-![Example of computed output](example.gif)
+![Example of computed output](example.jpg)
 
 #### Low level comments
 
