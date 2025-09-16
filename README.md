@@ -28,5 +28,9 @@ pieces of code and putting them together (with a bit of coding myself
 
 - The approach used here is probably from this paper:
 
-> [Practical Methods for Shape Fitting and Kinetic Data Structures using Coresets](https://link.springer.com/article/10.1007/s00453-007-9067-9)
-> by Hai Yu, Pankaj K. Agarwal, Raghunath Poreddy & Kasturi R. Varadarajan 
+  > [Practical Methods for Shape Fitting and Kinetic Data Structures using Coresets](https://link.springer.com/article/10.1007/s00453-007-9067-9),
+  > Hai Yu, Pankaj K. Agarwal, Raghunath Poreddy & Kasturi R. Varadarajan 
+
+  But it was likely described earlier in some Russian paper from the 15th century.
+  
+  
