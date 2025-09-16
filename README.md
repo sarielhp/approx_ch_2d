@@ -3,7 +3,7 @@
 ### Written By Sariel Har-Peled, 2025-Sep-16
 
 
-This code computes a polygon that approximates the convex-hull of a given set of points (all the in the plane). Specifically, one is given
+This code (written in Julia) computes a polygon that approximates the convex-hull of a given set of points (all the in the plane). Specifically, one is given
 a parameter k, and the algorithm adds the k points that each of them
 add the most area to the current convex-hull. For simplicity, the two
 starting points are the two x-extreme points. The algorithms works in
